@@ -9,6 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var myFriendsArray: [String] = ["Lena", "Felisity", "Emma", "Zoe", "Sheridan"]
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
