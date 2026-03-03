@@ -119,11 +119,11 @@
             </objects>
             <point key="canvasLocation" x="430" y="-199"/>
         </scene>
-        <!--Travel Destinations-->
+        <!--Places to Travel-->
         <scene sceneID="E3x-Hu-6cR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="luG-xm-wrg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Travel Destinations" image="airplane.ticket.fill" catalog="system" id="q7h-OK-vAo"/>
+                    <tabBarItem key="tabBarItem" title="Places to Travel" image="airplane.ticket.fill" catalog="system" id="q7h-OK-vAo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0qd-np-aLg">
                         <rect key="frame" x="0.0" y="118" width="393" height="54"/>
