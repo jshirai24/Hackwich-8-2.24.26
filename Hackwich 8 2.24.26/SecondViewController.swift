@@ -9,7 +9,8 @@ import UIKit
 
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
-    var travelDestinationArray = ["Japan", "New Zealand", "Broadway", "England"]
+    var travelDestinationArray = ["Japan", "New Zealand", "New York", "England"]
+    var travelDestinationCitiesArray = ["Tokyo", "Hobbiton", "Broadway", "Hampshire"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return travelDestinationArray.count
     }
@@ -17,6 +18,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let text = travelDestinationArray[indexPath.row]
+        cell.detailTextLabel?.text = travelDestinationCitiesArray[indexPath.row]
+        
         cell.textLabel?.text = text
         return cell
         
