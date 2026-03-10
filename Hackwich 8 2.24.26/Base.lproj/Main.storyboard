@@ -155,7 +155,7 @@
         <scene sceneID="E3x-Hu-6cR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="luG-xm-wrg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Places to Travel" image="airplane.ticket.fill" catalog="system" id="q7h-OK-vAo"/>
+                    <tabBarItem key="tabBarItem" title="Places to Travel" image="airplane" catalog="system" id="q7h-OK-vAo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0qd-np-aLg">
                         <rect key="frame" x="0.0" y="118" width="393" height="54"/>
@@ -172,7 +172,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="airplane.ticket.fill" catalog="system" width="128" height="76"/>
+        <image name="airplane" catalog="system" width="128" height="115"/>
         <image name="person.3" catalog="system" width="128" height="66"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
